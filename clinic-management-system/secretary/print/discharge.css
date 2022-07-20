@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 12pt;
+    font-family: 'Arial';
+}
+.container{
+    width: 100%;
+}
+.container .wrapper{
+    width: 100%;
+    padding: 20px;
+}
+table{
+    margin-top: 24px;
+    width: 100%;
+    border-collapse: collapse;
+}
+table th{
+    background-color: black;
+    color: white;
+}
+table th, table td{
+    padding: 12px;
+    text-align: center;
+}
